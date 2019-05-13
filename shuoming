@@ -1,0 +1,7 @@
+CentOS下shadowsocks-libev一键安装脚本
+
+-----------------------------------------------------------------
+wget --no-check-certificate -O shadowsocks-libev.sh https://raw.githubusercontent.com/sirfromprc/shadowsocks_install/master/shadowsocks-libev.sh
+chmod +x shadowsocks-libev.sh
+./shadowsocks-libev.sh 2>&1 | tee shadowsocks-libev.log
+----------------------------------------------------------------
